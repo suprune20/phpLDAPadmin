@@ -12,7 +12,8 @@
  * @package phpLDAPadmin
  * @subpackage Page
  */
-class page {
+#[AllowDynamicProperties]
+class page extends stdClass {
 	# pre-HTML headers
 	protected $_pageheader;
 
